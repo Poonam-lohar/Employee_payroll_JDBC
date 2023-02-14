@@ -6,6 +6,7 @@ public class EmployeePayrollService {
 
     public static void main(String[] args) throws SQLException {
         System.out.println("Welcome To employee payroll Service..........");
-
+        EmployeePayrollDB employeePayrollDB = new EmployeePayrollDB();
+        employeePayrollDB.getConnection();
     }
 }
